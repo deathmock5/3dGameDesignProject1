@@ -1,0 +1,16 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\PowerUpManager.js">
+    <Files>
+      <File FileName="Assets\Scripts\PlayerCollision.js" Line="19" Column="62" />
+      <File FileName="Assets\Scripts\PlayerMovement.js" Line="10" Column="149" />
+      <File FileName="Assets\Scripts\PowerUpCollision.js" Line="14" Column="62" />
+      <File FileName="Assets\Scripts\FireLaser.js" Line="30" Column="4" />
+      <File FileName="Assets\Scripts\PowerUpManager.js" Line="36" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
