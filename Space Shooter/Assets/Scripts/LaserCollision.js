@@ -3,11 +3,11 @@
 This script is responsible for managing all tasks the directly relate to laser collision.
 This is where the bulk of our collision detection will take place.
 */
-
 var player : GameObject;
 var enemy1 : GameObject;
 var explosion : GameObject;
 var explosionSound : GameObject;
+var id : int;
 
   //=====================
  //	Functions
@@ -63,5 +63,5 @@ function OnTriggerEnter(col : Collider) {
 		}
 		
 		Destroy(gameObject);
-	}
+	}	
 }

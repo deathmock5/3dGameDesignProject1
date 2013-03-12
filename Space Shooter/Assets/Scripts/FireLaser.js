@@ -3,8 +3,8 @@
 This script is responsible for firing player lasers and managing when player lasers can be fired.
 */
 var laser : GameObject;
-var maxLiveLasers : float;
-static var numLiveLasers : float;
+var maxLiveLasers : int;
+static var numLiveLasers : int;
 static var laserSpread : boolean;
 
 /*
@@ -32,11 +32,11 @@ function Fire() {
 	numLiveLasers++;
 	
 	//Always fires 1 laser straight ahead
-	Instantiate(laser, transform.position, transform.rotation);
+	var singleLaser :Instantiate(laser, transform.position, transform.rotation);
 	
 	//If laser spread power up obtained, fire 2 extra lasers
 	if (laserSpread == true) {
-		Instantiate(laser, transform.position, Quaternion.Euler(Vector3(0, -20, 0)));
+		Instantiate(laser, transform.position, Quaternion.Euler(Vector3(0,-20, 0)));
 		Instantiate(laser, transform.position, Quaternion.Euler(Vector3(0, 20, 0)));
 	}
 }
