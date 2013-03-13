@@ -18,7 +18,7 @@
 	<DebugType>full</DebugType>
 	<Optimize>false</Optimize>
 	<OutputPath>Temp\bin\Debug\</OutputPath>
-	<DefineConstants>DEBUG;TRACE;UNITY_STANDALONE;ENABLE_MICROPHONE;ENABLE_IMAGEEFFECTS;ENABLE_WEBCAM;ENABLE_AUDIO_FMOD;ENABLE_NETWORK;ENABLE_MONO;ENABLE_PHYSICS;ENABLE_TERRAIN;ENABLE_CACHING;ENABLE_SUBSTANCE;ENABLE_GENERICS;ENABLE_CLOTH;ENABLE_MOVIES;ENABLE_AUDIO;ENABLE_WWW;ENABLE_SHADOWS;ENABLE_DUCK_TYPING;UNITY_4_0_0;UNITY_4_0;UNITY_STANDALONE_WIN;ENABLE_PROFILER;UNITY_EDITOR;UNITY_TEAM_LICENSE</DefineConstants>
+	<DefineConstants>DEBUG;TRACE;UNITY_STANDALONE;ENABLE_MICROPHONE;ENABLE_IMAGEEFFECTS;ENABLE_WEBCAM;ENABLE_AUDIO_FMOD;ENABLE_NETWORK;ENABLE_MONO;ENABLE_PHYSICS;ENABLE_TERRAIN;ENABLE_CACHING;ENABLE_SUBSTANCE;ENABLE_GENERICS;ENABLE_CLOTH;ENABLE_MOVIES;ENABLE_AUDIO;ENABLE_WWW;ENABLE_SHADOWS;ENABLE_DUCK_TYPING;UNITY_4_0_1;UNITY_4_0;UNITY_STANDALONE_WIN;ENABLE_PROFILER;UNITY_EDITOR</DefineConstants>
 	<ErrorReport>prompt</ErrorReport>
 	<WarningLevel>4</WarningLevel>
 	<NoWarn>0169</NoWarn>
@@ -44,17 +44,20 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\BackgroundScroll.js" />
-     <Compile Include="Assets\Scripts\Enemy1Collision.js" />
-     <Compile Include="Assets\Scripts\Enemy1Fire.js" />
-     <Compile Include="Assets\Scripts\Enemy1Movement.js" />
-     <Compile Include="Assets\Scripts\FireLaser.js" />
-     <Compile Include="Assets\Scripts\LaserCollision.js" />
-     <Compile Include="Assets\Scripts\LaserMovement.js" />
+     <Compile Include="Assets\Scripts\BackgroundLayerBehavior.js" />
+     <Compile Include="Assets\Scripts\BackgroundLayerManager.js" />
+     <Compile Include="Assets\Scripts\EnemyBehavior.js" />
+     <Compile Include="Assets\Scripts\EnemyFiringPattern1.js" />
+     <Compile Include="Assets\Scripts\EnemyMovementPattern1.js" />
+     <Compile Include="Assets\Scripts\LaserBehaviorEnemy1.js" />
+     <Compile Include="Assets\Scripts\LaserBehaviorPlayer.js" />
+     <Compile Include="Assets\Scripts\LaserMovementStraight.js" />
      <Compile Include="Assets\Scripts\PlayerCollision.js" />
+     <Compile Include="Assets\Scripts\PlayerLaserFire.js" />
      <Compile Include="Assets\Scripts\PlayerMovement.js" />
+     <Compile Include="Assets\Scripts\PlayerPowerUpManager.js" />
      <Compile Include="Assets\Scripts\PowerUpCollision.js" />
-     <Compile Include="Assets\Scripts\PowerUpManager.js" />
+     <Compile Include="Assets\Scripts\PowerUpMovement.js" />
      <Compile Include="Assets\Scripts\TimedObjectDestruction.js" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
