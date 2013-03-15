@@ -8,7 +8,7 @@ static var deathPos : Vector3;
 static var hasPowerUpSpread : boolean = false;
 
 var player : GameObject;
-var guiSkin : GUISkin;
+var guiSkinLivesText : GUISkin;
 
 function Update () {
 	
@@ -24,6 +24,6 @@ function SetDeathPos(playerPosX : float, playerPosY : float, playerPosZ : float)
 }
 
 function OnGUI() {
-	GUI.skin = guiSkin;
-	GUI.Label(Rect((Screen.width / 2) - (Screen.width / 4), (Screen.height / 2) + ((Screen.height / 8) * 3), guiSkin.label.fontSize * 5, guiSkin.label.fontSize), lives.ToString());
+	GUI.skin = guiSkinLivesText;
+	GUI.Label(Rect((Screen.width / 2) - (Screen.width / 4), (Screen.height / 2) + ((Screen.height / 8) * 3), guiSkinLivesText.label.fontSize * 5, guiSkinLivesText.label.fontSize), lives.ToString());
 }
