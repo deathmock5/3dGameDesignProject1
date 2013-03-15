@@ -5,6 +5,7 @@ This script is responsible for managing all global game logic.
 static var lives : int = 3;
 static var score : int;
 static var deathPos : Vector3;
+static var hasPowerUpSpread : boolean = false;
 
 var player : GameObject;
 var guiSkin : GUISkin;

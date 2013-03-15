@@ -2,8 +2,6 @@
 /*
 This script is responsible for managing all tasks the directly relate to enemy collision.
 */
-
-var player : GameObject;
 var powerUp : GameObject;
 var getPowerUpSound : GameObject;
 

@@ -56,6 +56,7 @@
      <Compile Include="Assets\Scripts\PlayerCollision.js" />
      <Compile Include="Assets\Scripts\PlayerLaserFire.js" />
      <Compile Include="Assets\Scripts\PlayerMovement.js" />
+     <Compile Include="Assets\Scripts\PowerUpBehavior.js" />
      <Compile Include="Assets\Scripts\PowerUpCollision.js" />
      <Compile Include="Assets\Scripts\PowerUpMovement.js" />
      <Compile Include="Assets\Scripts\RotateOverTime.js" />
